@@ -2,7 +2,7 @@
 
 U8g2 is a monochrome graphics library for embedded devices. [Provided by Olikraus](https://github.com/olikraus)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![U8g2](C:/Users/Administrator/Documents/WeChat%20Files/LHT856/FileStorage/File/2019-06/U8g2/res/u8g2.jpg)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![U8g2](res/u8g2.jpg)
 
 - Supported Display Controller: SSD1305, SSD1306, SSD1309, SSD1322, SSD1325, SSD1327, SSD1329, SSD1606, SSD1607, SH1106, SH1107, SH1108, SH1122, T6963, RA8835, LC7981, PCD8544, PCF8812, HX1230, UC1601, UC1604, UC1608, UC1610, UC1611, UC1701, ST7565, ST7567, ST7588, ST75256, NT7534, IST3020, ST7920, LD7032, KS0108, SED1520, SBN1661, IL3820, MAX7219 (see here for a full list)
 
@@ -27,27 +27,24 @@ U8g2 also includes U8x8 library. Features for U8g2 and U8x8 are:
 - Open Arduino IDE
 - Open the Library Manager (Sketch > Include Library > manage Libraries...)
 
-![1](C:/Users/Administrator/Documents/WeChat%20Files/LHT856/FileStorage/File/2019-06/U8g2/res/1.png)
+![1](res/1.png)
 
 - Enter "u8g2" into the search field
 - Select latest version
 - Click "Install" button
 
-![2](C:/Users/Administrator/Documents/WeChat%20Files/LHT856/FileStorage/File/2019-06/U8g2/res/2.png)
+![2](res/2.png)
 
 #### If you want to use the latest U8g2 library, click on the link: [U8g2_Arduino](https://github.com/olikraus/U8g2_Arduino)
 
 - Open Arduino IDE
 - Open the Library Manager (Sketch > Include Library > Add .ZIP Library...).
 - Select the most recently downloaded U8g2 library.
-  ![3](C:/Users/Administrator/Documents/WeChat%20Files/LHT856/FileStorage/File/2019-06/U8g2/res/3.png)
+  ![3](res/3.png)
 
 #### The U8g2 library can be seen in Examples after successful installation
 
-![4](C:\Users\Administrator\Documents\WeChat Files\LHT856\FileStorage\File\2019-06\U8g2\res\4.png)
-
-
-
+![4](res/4.png)
 
 
 
@@ -117,7 +114,7 @@ void loop(void) {
 
 #### Start a U8g2 Arduino project on K210 PI
 
-![5](C:/Users/Administrator/Documents/WeChat%20Files/LHT856/FileStorage/File/2019-06/U8g2/res/0.jpg)
+![5](res/0.jpg)
 
 In order for K210 PI to run the U8g2 library,  must download the latest [K210 PI library](https://github.com/Seeed-Studio/ArduinoCore-k210/tree/dev) and [U8g2 library](https://github.com/olikraus/u8g2). 
 
@@ -331,7 +328,7 @@ void loop(void) {
 
 #### demo
 
-![string](C:/Users/Administrator/Documents/WeChat%20Files/LHT856/FileStorage/File/2019-06/U8g2/res/string.jpg)
+![string](res/string.jpg)
 
 ### Image
 
@@ -342,7 +339,7 @@ U8g2 library provides two functions to display images.
 
 In order to display the image on monochrome OLED, we need to convert the image to XBM format. You can convert  online via the WEB, or use any tool you know.
 
-![logo](C:/Users/Administrator/Documents/WeChat%20Files/LHT856/FileStorage/File/2019-06/U8g2/res/logo.png)
+![logo](res/logo.png)
 
 ```c
 static const unsigned char logo_2018_horizontal_bits[] = {
@@ -411,7 +408,7 @@ void loop(void) {
 
 #### demo
 
-![u8g2](C:/Users/Administrator/Documents/WeChat%20Files/LHT856/FileStorage/File/2019-06/U8g2/res/u8g2.jpg)
+![u8g2](res/u8g2.jpg)
 
 ### Performance
 
