@@ -1260,7 +1260,7 @@
               "name": "kendryte-standalone-sdk"
             }
           ]
-        }
+        },
 		{
           "name": "Grove AI HAT for Edge Computing",
           "architecture": "riscv64",
