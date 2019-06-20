@@ -1307,25 +1307,25 @@
               "size": "53852204"
             },
             {
-              "url": "https://github.com/kendryte/kendryte-gnu-toolchain/releases/download/v8.2.0-20190409/kendryte-toolchain-ubuntu-amd64-8.2.0-20190409.tar.xz",
-              "checksum": "SHA-256:6B7B9F654DF339CFB5DA85F7DB6F598552196C499EB244F548EAF73C63B81072",
+              "url": "https://github.com/kendryte/kendryte-gnu-toolchain/releases/download/v8.2.0-20190409/kendryte-toolchain-ubuntu-amd64-8.2.0-20190409.tar.bz2",
+              "checksum": "SHA-256:4329485768FB2D03F4A1F8D752A0F217C7638A0A5D8BE79CFC2B6B0CEE823CD0",
               "host": "x86_64-linux-gnu",
-              "archiveFileName": "kendryte-toolchain-ubuntu-amd64-8.2.0-20190213.tar.gz",
-              "size": "20133976"
+              "archiveFileName": "kendryte-toolchain-ubuntu-amd64-8.2.0-20190409.tar.bz2",
+              "size": "47838868"
             },
             {
-              "url": "https://github.com/kendryte/kendryte-gnu-toolchain/releases/download/v8.2.0-20190409/kendryte-toolchain-ubuntu-amd64-8.2.0-20190409.tar.xz",
-              "checksum": "SHA-256:6B7B9F654DF339CFB5DA85F7DB6F598552196C499EB244F548EAF73C63B81072",
+              "url": "https://github.com/kendryte/kendryte-gnu-toolchain/releases/download/v8.2.0-20190409/kendryte-toolchain-ubuntu-amd64-8.2.0-20190409.tar.bz2",
+              "checksum": "SHA-256:4329485768FB2D03F4A1F8D752A0F217C7638A0A5D8BE79CFC2B6B0CEE823CD0",
               "host": "i686-linux-gnu",
-              "archiveFileName": "kendryte-toolchain-ubuntu-amd64-8.2.0-20190213.tar.gz",
-              "size": "20133976"
+              "archiveFileName": "kendryte-toolchain-ubuntu-amd64-8.2.0-20190409.tar.bz2",
+              "size": "47838868"
             },
             {
-              "url": "https://github.com/kendryte/kendryte-gnu-toolchain/releases/download/v8.2.0-20190409/kendryte-toolchain-osx-mojave-8.2.0-20190409.tar.xz",
-              "checksum": "SHA-256:9ACBBC53E95F2439AFCC9F5B15D4A2A88A75CFD0AD14A4C104A978A6DFC43524",
+              "url": "https://github.com/kendryte/kendryte-gnu-toolchain/releases/download/v8.2.0-20190409/kendryte-toolchain-osx-mojave-8.2.0-20190409.tar.bz2",
+              "checksum": "SHA-256:786486C81E4CCF87227C3EA228CDC8721228DEE60160341725DAEE57567B775D",
               "host": "x86_64-apple-darwin",
-              "archiveFileName": "kendryte-toolchain-osx-mojave-8.2.0-20190213.tar.gz",
-              "size": "22400452"
+              "archiveFileName": "kendryte-toolchain-osx-mojave-8.2.0-20190409.tar.bz2",
+              "size": "48565570"
             }
           ]
         },
