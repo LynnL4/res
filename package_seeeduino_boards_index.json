@@ -1233,6 +1233,129 @@
           "name": "Grove AI HAT for Edge Computing",
           "architecture": "riscv64",
           "category": "Partner",
+          "version": "1.1.1",
+          "url": "https://github.com/Seeed-Studio/ArduinoCore-k210/archive/v1.1.zip",
+          "checksum": "SHA-256:9ceb6ee4d0b0cb23f89f396889a18f629e114a11c7c6f25b0000bcccdf500e5e",
+          "archiveFileName": "ArduinoCore_k210_v1.1.zip",
+          "size": "7410313",
+          "boards": [
+              { 
+                "name": "Seeed K210 Pi"
+              }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Seeeduino",
+              "version": "8.2.0",
+              "name": "riscv64-unknown-elf-gcc"
+            },
+            {
+              "packager": "Seeeduino",
+              "version": "1.1.0",
+              "name": "kflash"
+            },
+            {
+              "packager": "Seeeduino",
+              "version": "0.5.5",
+              "name": "kendryte-standalone-sdk"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "version": "8.2.0",
+          "name": "riscv64-unknown-elf-gcc",
+          "systems": [
+            {
+              "url": "https://github.com/kendryte/kendryte-gnu-toolchain/releases/download/v8.2.0-20190213/kendryte-toolchain-win-amd64-8.2.0-20190213.zip",
+              "checksum": "SHA-256:a82c6e6498eeda662b836e0a5b7a2b26ff7024e9d1f2e906c5d39f440bacdd8d",
+              "host": "i686-mingw32",
+              "archiveFileName": "toolchain_v8.2.0_20190213.zip",
+              "size": "471905370"
+            },
+            {
+              "url": "https://github.com/kendryte/kendryte-gnu-toolchain/releases/download/v8.2.0-20190213/kendryte-toolchain-ubuntu-amd64-8.2.0-20190213.tar.gz",
+              "checksum": "SHA-256:aa2fcc76ff61261b3667a422d4f67dec19c4547474bff4ebadaa1258b87985da",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "kendryte-toolchain-ubuntu-amd64-8.2.0-20190213.tar.gz",
+              "size": "360536176"
+            },
+            {
+              "url": "https://github.com/kendryte/kendryte-gnu-toolchain/releases/download/v8.2.0-20190213/kendryte-toolchain-ubuntu-amd64-8.2.0-20190213.tar.gz",
+              "checksum": "SHA-256:aa2fcc76ff61261b3667a422d4f67dec19c4547474bff4ebadaa1258b87985da",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "kendryte-toolchain-ubuntu-amd64-8.2.0-20190213.tar.gz",
+              "size": "360536176"
+            },
+            {
+              "url": "https://github.com/kendryte/kendryte-gnu-toolchain/releases/download/v8.2.0-20190213/kendryte-toolchain-osx-mojave-8.2.0-20190213.tar.gz",
+              "checksum": "SHA-256:f3cc7dc8c5fa8928aa804cc305f91935957ef81c41829064d8ee8da8d5aa8ec4",
+              "host": "x86_64-apple-darwin",
+              "archiveFileName": "kendryte-toolchain-osx-mojave-8.2.0-20190213.tar.gz",
+              "size": "50919270"
+            }
+          ]
+        },
+        {
+          "version": "1.1.0",
+          "name": "kflash",
+          "systems": [
+            {
+              "url": "https://github.com/Seeed-Studio/ArduinoCore-k210/raw/kendryte-standalone-sdk/tools/win_kflash_py_v1.1.0.zip",
+              "checksum": "SHA-256:7b0911e0cfc1619732766280fa1661ca82a375eee9b74552ef42526fb823f2e5",
+              "host": "i686-mingw32",
+              "archiveFileName": "win_kflash_py_v1.1.0.zip",
+              "size": "5240691"
+            },
+            {
+              "url": "https://github.com/Seeed-Studio/ArduinoCore-k210/raw/kendryte-standalone-sdk/tools/linux_kflash_v1.1.0.tar.bz2",
+              "checksum": "SHA-256:9584897b246d6d12ba6a94912923236288d833198b4b2f362cb90d557fe13fcc",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "linux_kflash_v1.1.0.tar.bz2",
+              "size": "504180"
+            },
+            {
+              "url": "https://github.com/Seeed-Studio/ArduinoCore-k210/raw/kendryte-standalone-sdk/tools/linux_kflash_v1.1.0.tar.bz2",
+              "checksum": "SHA-256:9584897b246d6d12ba6a94912923236288d833198b4b2f362cb90d557fe13fcc",
+              "host": "x86_64-apple-darwin",
+              "archiveFileName": "linux_kflash_v1.1.0.tar.bz2",
+              "size": "504180"
+            }
+          ]
+        },
+        {
+          "version": "0.5.5",
+          "name": "kendryte-standalone-sdk",
+          "systems": [
+            {
+              "url": "https://github.com/kendryte/kendryte-standalone-sdk/archive/V0.5.5.zip",
+              "checksum": "SHA-256:487e33f7114bb2a8029f5ba67350812880f886391c293e0a6238f5476f43fa0d",
+              "host": "i686-mingw32",
+              "archiveFileName": "kendryte-standalone-sdk-0.5.5.zip",
+              "size": "434743"
+            },
+            {
+              "url": "https://github.com/kendryte/kendryte-standalone-sdk/archive/V0.5.5.tar.gz",
+              "checksum": "SHA-256:a9e0e6118bcc08e5378a0da73ce408b46ae627402929cdfe097a9df0a2c9e487",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "kendryte-standalone-sdk-0.5.5.tar.gz",
+              "size": "351162"
+            },
+            {
+              "url": "https://github.com/kendryte/kendryte-standalone-sdk/archive/V0.5.5.tar.gz",
+              "checksum": "SHA-256:a9e0e6118bcc08e5378a0da73ce408b46ae627402929cdfe097a9df0a2c9e487",
+              "host": "x86_64-apple-darwin",
+              "archiveFileName": "kendryte-standalone-sdk-0.5.5.tar.gz",
+              "size": "351162"
+            }
+          ]
+        },
+		
+		{
+          "name": "Grove AI HAT for Edge Computing",
+          "architecture": "riscv64",
+          "category": "Partner",
           "version": "1.2.0",
           "url": "https://github.com/Seeed-Studio/ArduinoCore-k210/archive/v1.1.zip",
           "checksum": "SHA-256:9ceb6ee4d0b0cb23f89f396889a18f629e114a11c7c6f25b0000bcccdf500e5e",
