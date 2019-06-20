@@ -1300,7 +1300,7 @@
           "name": "riscv64-unknown-elf-gcc",
           "systems": [
             {
-              "url": "https://github.com/kendryte/kendryte-gnu-toolchain/releases/download/v8.2.0-20190409/kendryte-toolchain-win-i386-8.2.0-20190409.zip",
+              "url": "https://github.com/kendryte/kendryte-gnu-toolchain/releases/download/v8.2.0-20190409/kendryte-toolchain-win-amd64-8.2.0-20190409.zip",
               "checksum": "SHA-256:049CAA0DCC987BB67FCE9EF8B1F80824EFB8077223C10B27F2CED87C100A94F4",
               "host": "i686-mingw32",
               "archiveFileName": "toolchain_v8.2.0_20190213.zip",
