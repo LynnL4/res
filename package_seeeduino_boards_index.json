@@ -1373,7 +1373,7 @@
               "size": "683348"
             },
             {
-              "url": "https://github.com/Seeed-Studio/ArduinoCore-k210/raw/kendryte-standalone-sdk/tools/linux_kflash_v1.1.0.tar.bz2",
+              "url": "https://github.com/LynnL4/res/raw/master/linux_kflash_v1.3.0.tar.bz2",
               "checksum": "SHA-256:70DE4B76FE08A8379C91C285C796B1CF5E8268060E633E660A1A5B9E349C8FF3",
               "host": "x86_64-linux-gnu",
               "archiveFileName": "linux_kflash_v1.1.0.tar.bz2",
