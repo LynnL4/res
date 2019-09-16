@@ -1325,7 +1325,7 @@
             }
           ]
         },
-      {
+	 {
           "name": "Seeed IMXRT (NXP 32-bits ARM Cortex-M7) Boards",
           "architecture": "imxrt",
           "category": "Contributed",
@@ -1356,7 +1356,7 @@
               "name": "nxp-imrxt-sdk"
             }
           ]
-        },
+        }
       ],
       "tools": [
 	 {
