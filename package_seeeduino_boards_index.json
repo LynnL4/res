@@ -1324,7 +1324,7 @@
               "name": "kendryte-standalone-sdk"
             }
           ]
-        }
+        },
       {
           "name": "Seeed IMXRT (NXP 32-bits ARM Cortex-M7) Boards",
           "architecture": "imxrt",
