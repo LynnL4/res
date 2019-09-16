@@ -642,8 +642,8 @@
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_SAMD_zero_v1.0.0.tar.bz2",
           "archiveFileName": "Seeeduino_SAMD_zero_v1.0.0.tar.bz2",
-          "checksum": "SHA-256:a43ff95300f0e9f9d5afb868aa8a934c33039306c2e57d32424b30d668af9909",
-          "size": "5976601",
+          "checksum": "SHA-256:85dd573694249e5dab853cb4805e003d28a26516e2e8d8768941b2cc99c4e6de",
+          "size": "5966340",
           "boards": [
             {
               "name": "Seeeduino_Lotus_M0"
@@ -689,17 +689,17 @@
           ]
         },
         {
-          "name": "Seeeduino_Wio_Lite_BLE",
-          "architecture": "Seeeduino_Wio_Lite_BLE",
+          "name": "Seeeduino_Wio_Lite_MG126",
+          "architecture": "Seeeduino_Wio_Lite_MG126",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_Wio_Lite_BLE_v1.0.0.tar.bz2",
-          "archiveFileName": "Seeeduino_Wio_Lite_BLE_v1.0.0.tar.bz2",
-          "checksum": "SHA-256:7c81f77b30e3cb1472cee184a21a6973bb6ac3a3c300b292af7c70d6c3a8c6c3",
-          "size": "2723122",
+          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_Wio_Lite_MG126_v1.0.0.tar.bz2",
+          "archiveFileName": "Seeeduino_Wio_Lite_MG126_v1.0.0.tar.bz2",
+          "checksum": "SHA-256:760dfe0566fdf45b70a7b60d06cc70c87e2c0093f754aefb3c53d0be27cdbd78",
+          "size": "2507132",
           "boards": [
             {
-			  "name": "Seeeduino_Wio_Lite_BLE"
+			  "name": "Seeeduino_Wio_Lite_MG126"
             }
           ],
           "toolsDependencies": [
@@ -1261,7 +1261,7 @@
             }
           ]
         },
-		{
+	{
           "name": "Grove AI HAT for Edge Computing",
           "architecture": "riscv64",
           "category": "Contributed",
@@ -1293,15 +1293,15 @@
             }
           ]
         },
-	      {
+	{
           "name": "Grove AI HAT for Edge Computing",
           "architecture": "riscv64",
           "category": "Contributed",
           "version": "1.3.0",
           "url": "https://github.com/Seeed-Studio/ArduinoCore-k210/archive/v1.3.zip",
-          "checksum": "SHA-256:9924BCB05851D1F65D065F1704F4468CF2046E84801E0B1EBD24B14CC154F433",
-          "archiveFileName": "ArduinoCore_k210_v1.2.1.zip",
-          "size": "8134042",
+          "checksum": "SHA-256:0A81922D5C9A60BD1F7CD9E5173C8490390728ED1AACCC5E8AE832B1D7CCF6DE",
+          "archiveFileName": "ArduinoCore_k210_v1.3.zip",
+          "size": "8134054",
           "boards": [
               { 
                 "name": "Seeed K210 Pi"
@@ -1366,21 +1366,21 @@
           "name": "kflash",
           "systems": [
             {
-              "url": "https://github.com/LynnL4/res/raw/master/win_kflash_py_v1.3.0.zip",
-              "checksum": "SHA-256:6BBF40D5EB2FFE42CB4DDD62E3B6FDAC0CC1F0E08FE23E73F1940D964CDC1831",
+              "url": "https://github.com/Seeed-Studio/ArduinoCore-k210/raw/kendryte-standalone-sdk/tools/win_kflash_py_v1.3.0.zip",
+              "checksum": "SHA-256:5E29EA02FF966167489B8DE3DCBBAF675D9CEB4D96EC4BFB904FD854CD217C8B",
               "host": "i686-mingw32",
               "archiveFileName": "win_kflash_py_v1.3.0.zip",
-              "size": "683348"
+              "size": "6863354"
             },
             {
-              "url": "https://github.com/LynnL4/res/raw/master/linux_kflash_v1.3.0.tar.bz2",
+              "url": "https://github.com/Seeed-Studio/ArduinoCore-k210/raw/kendryte-standalone-sdk/tools/linux_kflash_v1.3.0.tar.bz2",
               "checksum": "SHA-256:70DE4B76FE08A8379C91C285C796B1CF5E8268060E633E660A1A5B9E349C8FF3",
               "host": "x86_64-linux-gnu",
               "archiveFileName": "linux_kflash_v1.3.0.tar.bz2",
               "size": "70310"
             },
             {
-              "url": "https://github.com/LynnL4/res/raw/master/linux_kflash_v1.3.0.tar.bz2",
+              "url": "https://github.com/Seeed-Studio/ArduinoCore-k210/raw/kendryte-standalone-sdk/tools/linux_kflash_v1.3.0.tar.bz2",
               "checksum": "SHA-256:70DE4B76FE08A8379C91C285C796B1CF5E8268060E633E660A1A5B9E349C8FF3",
               "host": "x86_64-apple-darwin",
               "archiveFileName": "linux_kflash_v1.3.0.tar.bz2",
