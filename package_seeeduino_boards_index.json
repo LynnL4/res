@@ -1325,21 +1325,26 @@
             }
           ]
         },
-	 {
+      {
           "name": "Seeed IMXRT (NXP 32-bits ARM Cortex-M7) Boards",
           "architecture": "imxrt",
           "category": "Contributed",
           "version": "1.0.0",
-          "url": "https://github.com/Seeed-Studio/ArduinoCore-k210/archive/v1.3.zip",
-          "checksum": "SHA-256:0A81922D5C9A60BD1F7CD9E5173C8490390728ED1AACCC5E8AE832B1D7CCF6DE",
-          "archiveFileName": "ArduinoCore_k210_v1.3.zip",
-          "size": "8134054",
+          "url": "http://localhost/res/ArduinoCore-imxrt.tar.bz2",
+          "archiveFileName": "ArduinoCore-imxrt-1.0.0.tar.bz2",
+          "checksum": "SHA-256:C259D9AA627E6F2DCC16A2AA41877285A32AA2C58EF7253DFA5D885A2405D237",
+          "size": "20676604",
           "boards": [
             {
               "name": "Seeed Arch Mix"
             }
           ],
           "toolsDependencies": [
+			{
+              "packager": "Seeeduino",
+              "version": "1.0.0",
+              "name": "CMSIS-IMXRT"
+            },
             {
               "packager": "Seeeduino",
               "version": "7-2017q4",
@@ -1352,36 +1357,84 @@
             },
             {
               "packager": "Seeeduino",
-              "version": "0.5.6",
-              "name": "nxp-imrxt-sdk"
+              "version": "1.0.0",
+              "name": "nxp-imxrt-sdk"
             }
           ]
         }
       ],
       "tools": [
-	 {
+	    {
+          "name": "CMSIS-IMXRT",
           "version": "1.0.0",
-          "name": "nxp-imxrt-sdkdk",
           "systems": [
             {
-              "url": "https://github.com/LynnL4/res/raw/master/nxp-imrxt-sdk.tar.bz2",
+              "host": "i686-mingw32",
+              "url": "http://localhost/res/CMSIS-IMXRT.tar.bz2",
+              "archiveFileName": "CMSIS-IMXRT-1.0.0.tar.bz2",
+              "checksum": "SHA-256:5B2C8AE3F2A00A97842105BEBA3E604F06A55D00EED538D05470317A3D1C53F2",
+              "size": "4983848"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://localhost/res/CMSIS-IMXRT.tar.bz2",
+              "archiveFileName": "CMSIS-IMXRT-1.0.0.tar.bz2",
+              "checksum": "SHA-256:5B2C8AE3F2A00A97842105BEBA3E604F06A55D00EED538D05470317A3D1C53F2",
+              "size": "4983848"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://localhost/res/CMSIS-IMXRT.tar.bz2",
+              "archiveFileName": "CMSIS-IMXRT-1.0.0.tar.bz2",
+              "checksum": "SHA-256:5B2C8AE3F2A00A97842105BEBA3E604F06A55D00EED538D05470317A3D1C53F2",
+              "size": "4983848"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://localhost/res/CMSIS-IMXRT.tar.bz2",
+              "archiveFileName": "CMSIS-IMXRT-1.0.0.tar.bz2",
+              "checksum": "SHA-256:5B2C8AE3F2A00A97842105BEBA3E604F06A55D00EED538D05470317A3D1C53F2",
+              "size": "4983848"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "http://localhost/res/CMSIS-IMXRT.tar.bz2",
+              "archiveFileName": "CMSIS-IMXRT-1.0.0.tar.bz2",
+              "checksum": "SHA-256:5B2C8AE3F2A00A97842105BEBA3E604F06A55D00EED538D05470317A3D1C53F2",
+              "size": "4983848"
+            },
+            {
+              "host": "all",
+              "url": "http://localhost/res/CMSIS-IMXRT.tar.bz2",
+              "archiveFileName": "CMSIS-IMXRT-1.0.0.tar.bz2",
+              "checksum": "SHA-256:5B2C8AE3F2A00A97842105BEBA3E604F06A55D00EED538D05470317A3D1C53F2",
+              "size": "4983848"
+            }
+          ]
+        },
+	    {
+          "version": "1.0.0",
+          "name": "nxp-imxrt-sdk",
+          "systems": [
+            {
+              "url": "http://localhost/res/nxp-imxrt-sdk.tar.bz2",
               "checksum": "SHA-256:C9EBDFF8DA500AE9B9C43B33D05AE0D7E137AE790A2922A34141DCF0551DA857",
               "host": "i686-mingw32",
-              "archiveFileName": "nxp-imxrt-sdk.tar.bz2",
+              "archiveFileName": "nxp-imxrt-sdk-1.0.0.tar.bz2",
               "size": "12868944"
             },
             {
-              "url": "https://github.com/LynnL4/res/raw/master/nxp-imrxt-sdk.tar.bz2",
+              "url": "http://localhost/res/nxp-imxrt-sdk.tar.bz2",
               "checksum": "SHA-256:C9EBDFF8DA500AE9B9C43B33D05AE0D7E137AE790A2922A34141DCF0551DA857",
               "host": "x86_64-linux-gnu",
-              "archiveFileName": "nxp-imxrt-sdk.tar.bz2",
+              "archiveFileName": "nxp-imxrt-sdk-1.0.0.tar.bz2",
               "size": "12868944"
             },
             {
-              "url": "https://github.com/LynnL4/res/raw/master/nxp-imrxt-sdk.tar.bz2",
+              "url": "http://localhost/res/nxp-imxrt-sdk.tar.bz2",
               "checksum": "SHA-256:C9EBDFF8DA500AE9B9C43B33D05AE0D7E137AE790A2922A34141DCF0551DA857",
               "host": "x86_64-apple-darwin",
-              "archiveFileName": "nxp-imxrt-sdk.tar.bz2",
+              "archiveFileName": "nxp-imxrt-sdk-1.0.0.tar.bz2",
               "size": "12868944"
             }
           ]
@@ -1700,7 +1753,7 @@
             },
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/LynnL4/res/raw/master/bossac.tar.bz2",
+              "url": "http://localhost/res/bossac.tar.bz2",
               "archiveFileName": "bossac.tar.bz2",
               "checksum": "SHA-256:EBEE85E08F17BB6ABB60C0CF7C95A6826E9E72E0FEAB974C08451E97AA886C53",
               "size": "94812"
