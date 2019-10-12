@@ -1325,13 +1325,63 @@
             }
           ]
         },
-      {
-          "name": "Seeed IMXRT (NXP 32-bits ARM Cortex-M7) Boards",
+		{
+          "name": "Seeed SAMD Boards",
+          "architecture": "femtom0",
+          "version": "1.5.4",
+          "category": "Contributed",
+          "url": "https://github.com/Seeed-Studio/ArduinoCore-samd/archive/1.5.4.tar.gz",
+          "archiveFileName": "ArduinoCore-samd-1.5.4.tar.gz",
+          "checksum": "SHA-256:2CCC44079C21DE14DAC7E94BB63A51C279171105CCD88A9D5880B839DD2F4D89",
+          "size": "21632915",
+          "help": {
+            "online": "http://wiki.seeedstudio.com"
+          },
+          "boards": [
+		    {
+              "name": "Seeed Femto M0"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        },
+		{
+          "name": "Seeed i.MX RT (NXP 32-bits ARM Cortex-M7) Boards",
           "architecture": "imxrt",
           "category": "Contributed",
           "version": "1.0.0",
-          "url": "http://localhost/res/ArduinoCore-imxrt.tar.bz2",
-          "archiveFileName": "ArduinoCore-imxrt-1.0.0.tar.bz2",
+          "url": "https://github.com/Seeed-Studio/ArduinoCore-imxrt/archive/v1.0.0.tar.gz",
+          "archiveFileName": "ArduinoCore-imxrt-1.0.0.tar.gz",
           "checksum": "SHA-256:C259D9AA627E6F2DCC16A2AA41877285A32AA2C58EF7253DFA5D885A2405D237",
           "size": "20676604",
           "boards": [
@@ -1340,11 +1390,6 @@
             }
           ],
           "toolsDependencies": [
-			{
-              "packager": "Seeeduino",
-              "version": "1.0.0",
-              "name": "CMSIS-IMXRT"
-            },
             {
               "packager": "Seeeduino",
               "version": "7-2017q4",
@@ -1354,91 +1399,11 @@
               "packager": "Seeeduino",
               "version": "1.9.1-seeeduino",
               "name": "bossac"
-            },
-            {
-              "packager": "Seeeduino",
-              "version": "1.0.0",
-              "name": "nxp-imxrt-sdk"
             }
           ]
         }
       ],
       "tools": [
-	    {
-          "name": "CMSIS-IMXRT",
-          "version": "1.0.0",
-          "systems": [
-            {
-              "host": "i686-mingw32",
-              "url": "http://localhost/res/CMSIS-IMXRT.tar.bz2",
-              "archiveFileName": "CMSIS-IMXRT-1.0.0.tar.bz2",
-              "checksum": "SHA-256:5B2C8AE3F2A00A97842105BEBA3E604F06A55D00EED538D05470317A3D1C53F2",
-              "size": "4983848"
-            },
-            {
-              "host": "x86_64-apple-darwin",
-              "url": "http://localhost/res/CMSIS-IMXRT.tar.bz2",
-              "archiveFileName": "CMSIS-IMXRT-1.0.0.tar.bz2",
-              "checksum": "SHA-256:5B2C8AE3F2A00A97842105BEBA3E604F06A55D00EED538D05470317A3D1C53F2",
-              "size": "4983848"
-            },
-            {
-              "host": "x86_64-pc-linux-gnu",
-              "url": "http://localhost/res/CMSIS-IMXRT.tar.bz2",
-              "archiveFileName": "CMSIS-IMXRT-1.0.0.tar.bz2",
-              "checksum": "SHA-256:5B2C8AE3F2A00A97842105BEBA3E604F06A55D00EED538D05470317A3D1C53F2",
-              "size": "4983848"
-            },
-            {
-              "host": "i686-pc-linux-gnu",
-              "url": "http://localhost/res/CMSIS-IMXRT.tar.bz2",
-              "archiveFileName": "CMSIS-IMXRT-1.0.0.tar.bz2",
-              "checksum": "SHA-256:5B2C8AE3F2A00A97842105BEBA3E604F06A55D00EED538D05470317A3D1C53F2",
-              "size": "4983848"
-            },
-            {
-              "host": "arm-linux-gnueabihf",
-              "url": "http://localhost/res/CMSIS-IMXRT.tar.bz2",
-              "archiveFileName": "CMSIS-IMXRT-1.0.0.tar.bz2",
-              "checksum": "SHA-256:5B2C8AE3F2A00A97842105BEBA3E604F06A55D00EED538D05470317A3D1C53F2",
-              "size": "4983848"
-            },
-            {
-              "host": "all",
-              "url": "http://localhost/res/CMSIS-IMXRT.tar.bz2",
-              "archiveFileName": "CMSIS-IMXRT-1.0.0.tar.bz2",
-              "checksum": "SHA-256:5B2C8AE3F2A00A97842105BEBA3E604F06A55D00EED538D05470317A3D1C53F2",
-              "size": "4983848"
-            }
-          ]
-        },
-	    {
-          "version": "1.0.0",
-          "name": "nxp-imxrt-sdk",
-          "systems": [
-            {
-              "url": "http://localhost/res/nxp-imxrt-sdk.tar.bz2",
-              "checksum": "SHA-256:C9EBDFF8DA500AE9B9C43B33D05AE0D7E137AE790A2922A34141DCF0551DA857",
-              "host": "i686-mingw32",
-              "archiveFileName": "nxp-imxrt-sdk-1.0.0.tar.bz2",
-              "size": "12868944"
-            },
-            {
-              "url": "http://localhost/res/nxp-imxrt-sdk.tar.bz2",
-              "checksum": "SHA-256:C9EBDFF8DA500AE9B9C43B33D05AE0D7E137AE790A2922A34141DCF0551DA857",
-              "host": "x86_64-linux-gnu",
-              "archiveFileName": "nxp-imxrt-sdk-1.0.0.tar.bz2",
-              "size": "12868944"
-            },
-            {
-              "url": "http://localhost/res/nxp-imxrt-sdk.tar.bz2",
-              "checksum": "SHA-256:C9EBDFF8DA500AE9B9C43B33D05AE0D7E137AE790A2922A34141DCF0551DA857",
-              "host": "x86_64-apple-darwin",
-              "archiveFileName": "nxp-imxrt-sdk-1.0.0.tar.bz2",
-              "size": "12868944"
-            }
-          ]
-        },
         {
           "version": "8.2.0",
           "name": "riscv64-unknown-elf-gcc",
@@ -1733,37 +1698,37 @@
             }
           ]
         },
-	{
+	    {
           "name": "bossac",
           "version": "1.9.1-seeeduino",
           "systems": [
             {
               "host": "i686-linux-gnu",
-              "url": "http://downloads.arduino.cc/tools/bossac-1.3a-arduino-i686-linux-gnu.tar.bz2",
+              "url": "https://github.com/Seeed-Studio/BOSSA/releases/download/1.9.1-seeeduino/bossac-1.9.1-seeeduino-linux.tar.bz2",
               "archiveFileName": "bossac-1.3a-arduino-i686-linux-gnu.tar.bz2",
-              "checksum": "SHA-256:d6d10362f40729a7877e43474fcf02ad82cf83321cc64ca931f5c82b2d25d24f",
-              "size": "147359"
+              "checksum": "SHA-256:BB0C97AB3F012710A2CBCCF154A6356D971BEC8B2F0DCC019D1C8C3D316D2E5C",
+              "size": "461119"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "http://downloads.arduino.cc/tools/bossac-1.3a-arduino-x86_64-pc-linux-gnu.tar.bz2",
+              "url": "https://github.com/Seeed-Studio/BOSSA/releases/download/1.9.1-seeeduino/bossac-1.9.1-seeeduino-linux.tar.bz2",
               "archiveFileName": "bossac-1.3a-arduino-x86_64-pc-linux-gnu.tar.bz2",
-              "checksum": "SHA-256:c1daed033251296768fa8b63ad283e053da93427c0f3cd476a71a9188e18442c",
-              "size": "26179"
+              "checksum": "SHA-256:BB0C97AB3F012710A2CBCCF154A6356D971BEC8B2F0DCC019D1C8C3D316D2E5C",
+              "size": "461119"
             },
             {
               "host": "i686-mingw32",
-              "url": "http://localhost/res/bossac.tar.bz2",
-              "archiveFileName": "bossac.tar.bz2",
-              "checksum": "SHA-256:EBEE85E08F17BB6ABB60C0CF7C95A6826E9E72E0FEAB974C08451E97AA886C53",
-              "size": "94812"
+              "url": "https://github.com/Seeed-Studio/BOSSA/releases/download/1.9.1-seeeduino/bossac-1.9.1-seeeduino-windows.tar.bz2",
+              "archiveFileName": "bossac-1.9.1-seeeduino-windows.tar.bz2",
+              "checksum": "SHA-256:3DBA3C4128E95F27A469C39B79E93652B26DF7A40F0A8D27B399B30F373AD5A1",
+              "size": "493021"
             },
             {
               "host": "i386-apple-darwin11",
-              "url": "http://downloads.arduino.cc/tools/bossac-1.3a-arduino-i386-apple-darwin11.tar.bz2",
-              "archiveFileName": "bossac-1.3a-arduino-i386-apple-darwin11.tar.bz2",
-              "checksum": "SHA-256:40770b225753e7a52bb165e8f37e6b760364f5c5e96048168d0178945bd96ad6",
-              "size": "39475"
+              "url": "https://github.com/Seeed-Studio/BOSSA/releases/download/1.9.1-seeeduino/bossac-1.9.1-seeeduino-macos.tar",
+              "archiveFileName": "bossac-1.9.1-seeeduino-macos.tar.bz2",
+              "checksum": "SHA-256:3AB8664F268C09859757A31916278701CEE5EDD828FC095926D2BA0D186DE824",
+              "size": "246784"
             }
           ]
         },
