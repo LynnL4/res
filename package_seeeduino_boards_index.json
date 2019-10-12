@@ -1382,8 +1382,8 @@
           "version": "1.0.0",
           "url": "https://github.com/Seeed-Studio/ArduinoCore-imxrt/archive/v1.0.0.tar.gz",
           "archiveFileName": "ArduinoCore-imxrt-1.0.0.tar.gz",
-          "checksum": "SHA-256:C259D9AA627E6F2DCC16A2AA41877285A32AA2C58EF7253DFA5D885A2405D237",
-          "size": "20676604",
+          "checksum": "SHA-256:C437BEC737B8F0B7CDF771A4D57D55364D3B564E239C70889A09EB3221C4270D",
+          "size": "23956490",
           "boards": [
             {
               "name": "Seeed Arch Mix"
