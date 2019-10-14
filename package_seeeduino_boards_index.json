@@ -1704,17 +1704,17 @@
           "systems": [
             {
               "host": "i686-linux-gnu",
-              "url": "https://github.com/Seeed-Studio/BOSSA/releases/download/1.9.1-seeeduino/bossac-1.9.1-seeeduino-linux.tar.bz2",
-              "archiveFileName": "bossac-1.3a-arduino-i686-linux-gnu.tar.bz2",
-              "checksum": "SHA-256:BB0C97AB3F012710A2CBCCF154A6356D971BEC8B2F0DCC019D1C8C3D316D2E5C",
-              "size": "461119"
+              "url": "https://github.com/Seeed-Studio/BOSSA/releases/download/1.9.1-seeeduino/bossac-1.9.1-seeeduino-linux.tar.gz",
+              "archiveFileName": "bossac-1.9.1-seeeduino-linux.tar.gz",
+              "checksum": "SHA-256:6D67317017CB02CD000F7BA782CEE99985F69B22EC2A857E880512F0FF8437F8",
+              "size": "468465"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/Seeed-Studio/BOSSA/releases/download/1.9.1-seeeduino/bossac-1.9.1-seeeduino-linux.tar.bz2",
-              "archiveFileName": "bossac-1.3a-arduino-x86_64-pc-linux-gnu.tar.bz2",
-              "checksum": "SHA-256:BB0C97AB3F012710A2CBCCF154A6356D971BEC8B2F0DCC019D1C8C3D316D2E5C",
-              "size": "461119"
+              "url": "https://github.com/Seeed-Studio/BOSSA/releases/download/1.9.1-seeeduino/bossac-1.9.1-seeeduino-linux.tar.gz",
+              "archiveFileName": "bossac-1.9.1-seeeduino-linux.tar.gz",
+              "checksum": "SHA-256:6D67317017CB02CD000F7BA782CEE99985F69B22EC2A857E880512F0FF8437F8",
+              "size": "468465"
             },
             {
               "host": "i686-mingw32",
@@ -1725,10 +1725,10 @@
             },
             {
               "host": "i386-apple-darwin11",
-              "url": "https://github.com/Seeed-Studio/BOSSA/releases/download/1.9.1-seeeduino/bossac-1.9.1-seeeduino-macos.tar",
-              "archiveFileName": "bossac-1.9.1-seeeduino-macos.tar.bz2",
-              "checksum": "SHA-256:3AB8664F268C09859757A31916278701CEE5EDD828FC095926D2BA0D186DE824",
-              "size": "246784"
+              "url": "https://github.com/Seeed-Studio/BOSSA/releases/download/1.9.1-seeeduino/bossac-1.9.1-seeeduino-drawin.tar.gz",
+              "archiveFileName": "bossac-1.9.1-seeeduino-drawin.tar.gz",
+              "checksum": "SHA-256:846B8C7D85421BCE825B7B13768DCA54C2C09127707F3F1842DDD8E19E20F7D4",
+              "size": "75394"
             }
           ]
         },
